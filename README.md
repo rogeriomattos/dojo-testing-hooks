@@ -55,3 +55,4 @@ yarn test
 - Medium test custom hook: https://kentcdodds.com/blog/how-to-test-custom-react-hooks
 - Documentação de como criar hook: https://react.dev/learn/reusing-logic-with-custom-hooks#extracting-your-own-custom-hook-from-a-component
 - Apresentação react conf de 2018 sobre hooks: https://youtu.be/dpw9EHDh2bM?t=731
+- Lib para testes com hooks: https://react-hooks-testing-library.com/usage/basic-hooks
