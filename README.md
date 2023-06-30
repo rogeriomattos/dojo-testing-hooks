@@ -1,8 +1,18 @@
 # Dojo: Como fazer testes unitários em hooks
 
 ## O que é um hook?
+Hooks são funções que permitem usar os recursos do React no seu componente. Essa funções podem ser as nativas do framework ou customizadas. Um hook sempre inicializa com a palava ```use``` no seu nome
+
+Exemplos de hooks mais usados: 
+
+- useState
+- useEffect
+- useMemo
+- useCallback
+- etc…
 
 ## Porque não consigo testar como uma função?
+Hooks são funções que necessitam serem execultadas dentro de um component React, logo esse tipo de função não pode ser simplesmente chamada dentro de um teste, como ocorre com funçõe normais do Javascript.
 
 ## Projeto de exemplo
 
