@@ -12,7 +12,11 @@ Exemplos de hooks mais usados:
 - etc…
 
 ## Porque não consigo testar como uma função?
-Hooks são funções que necessitam serem execultadas dentro de um component React, logo esse tipo de função não pode ser simplesmente chamada dentro de um teste, como ocorre com funçõe normais do Javascript.
+Hooks são funções que necessitam serem execultadas dentro de um component React, logo esse tipo de função não pode ser simplesmente chamada dentro de um teste, como ocorre com funções normais do Javascript.
+
+Por causa disso para testa-los somos obrigados a criar um mock de component.
+Porem o component só retorna tipos que possam ser renderizados em tela, como texto, html, number etc.
+Então não tem como acessar o hook que esta dentro do component.
 
 ## Como rodar o projeto
 1. Clone o projeto:
